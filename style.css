@@ -1,0 +1,728 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body{
+    height: 100vh;
+    font-family: 'Nunito', sans-serif;
+}
+
+.nav
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.nav-list
+{
+  display: flex;
+}
+
+.nav-item
+{
+  text-transform: capitalize;
+  font-family: 'Nunito', sans-serif;
+  margin-left: 25px;
+  outline: none;
+  /* border: none; */
+}
+
+.nav .nav-link
+{
+  color: black;
+  font-weight: 600;
+  font-size: 17px;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.nav .nav-link:hover
+{
+  color: #fff;
+  background-color: #2575E6;
+  font-weight: 600;
+  font-size: 17px;
+  transition: 0.5s;
+}
+
+.buttons .nav-lnk
+{
+  font-family: 'Nunito', sans-serif;
+  color: #000;
+  margin-left: 10px;
+  padding: 10px 25px;
+  border: 0.5px solid gray;
+  border-radius: 10px;
+}
+
+.buttons .nav-lnk:hover
+{
+  font-family: 'Nunito', sans-serif;
+  color: #fff;
+  margin-left: 10px;
+  background-color: #2575E6;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+main .container{
+    border-radius: 2%;
+    border-bottom-left-radius: none;
+    border-bottom-right-radius: none;
+    margin: 50px auto;  
+    width: 1140px;
+    background-image: linear-gradient(269deg, rgba(255, 255, 255, 0) 0%, rgba(59, 115, 150, 0.71) 100%),url(".//img/0.2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info{
+    width: 500px;
+    padding: 150px 100px;
+    color: white;
+}
+
+.info-title{
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 45px;
+}
+
+.info-text{
+    padding: 20px 0;
+    padding-top: 100px;
+    width: 450px;
+    font-weight: 500;
+}
+
+
+.form{
+    width: 80%;
+    display: flex;
+}
+.form .input{
+    width: 50%;
+    height: 50px;
+    border-radius: 5px 0 0 5px;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+}
+
+.form .button{
+    width: 30%;
+    height: 50px;
+    padding-right: 20px;
+    padding-left: 10px;
+    border-radius : 0 5px 5px 0;
+    border:none;
+    background-color: rgb(97, 120, 224);
+    outline: none;
+    color:white;
+}
+
+.courses .container{
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.courses-list
+{
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  /* margin-left: 40px; */
+}
+
+.courses-item
+{
+  display: flex;
+  align-items: center;
+}
+
+.courses-icon
+{
+  padding: 20px 30px;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+  margin-right: 30px;
+}
+
+.courses .courses-crs
+{
+  font-family: 'Nunito', sans-serif;
+  font-size: 30px;
+}
+
+.courses .courses-txt
+{
+  font-family: 'Nunito', sans-serif;
+  color: rgba(0,0,0,0.5);
+  font-weight: bolder;
+  text-transform: capitalize;
+}
+
+.container{
+    width: 1140px;
+    margin: 50px auto;
+}
+
+.popular .all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.all .our{
+    color: rgb(46, 44, 44);
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.all .our div{
+    width: 100px;
+    height: 3px;
+    background-color: rgb(72, 72, 226);
+}
+
+.all-link{
+    border: 1px solid rgb(102, 102, 245);
+    padding: 18px;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.all-link:hover{
+    transition: 1s;
+    background-color: rgb(102, 102, 245);
+    color: white;
+}
+
+.popular .popular-list{
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.popular-item {
+  position: relative;
+  width: 300px;
+  height: 450px;
+  background-image: url(https://picsum.photos/300);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 400px 450px;
+  margin: 35px;
+  margin-left: 45px;
+  box-shadow: 0px 10px 25px 1px #e7eaec;
+  background-color: red;
+  border-radius: 5px;
+}
+
+.popular-item .app{
+  position: absolute;
+  bottom: 0;
+  /* background-color:red; */
+  width: 100%;
+  padding-bottom: 30px;
+  line-height: 2;
+  text-align: center;
+  background: white;
+}
+
+.app-hr{
+  width: 250px;
+  margin-left: 30px;
+}
+
+.app span{
+display: flex;
+justify-content: left;
+align-items: center;
+margin-left: 35px;
+}
+
+.app-text{
+  padding-left: 5px;
+  padding: 5px 10px;
+  color:darkgray
+}
+
+.app-title{
+  margin-top: 30px;
+  color: darkgray
+}
+
+.app-list{
+  margin-top: 2px;
+  color: darkgray;
+}
+
+.app .app-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.app{
+  position: relative;
+}
+
+.popula-item-image{
+  position: absolute;
+  right: 20px;
+  bottom: 170px;
+  border: none;
+  border-radius: 10px;
+
+}
+
+.find .container{
+  width: 1140px;
+  margin: 0 auto;
+  background-color: #E8EDFA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parag .parag-title{
+  padding: 0px 50px;
+  padding-top: 100px;
+}
+
+.parag .parag-line{
+  width: 100px;
+  height: 5px;
+  background-color: #508FEA;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.parag .parag-text{
+  width: 400px;
+  padding: 0px 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  line-height: 2;
+}
+
+.parag .parag-link{
+  margin-top: 100px;
+  margin-left: 50px;
+  padding: 10px 25px;
+  background-color:#508FEA;
+  border-radius: 10px;
+  color: white;
+}
+
+.parag-link:hover{
+  background-color: cadetblue;
+}
+  /* width: 600px; */
+
+.find-image{
+  position: relative;
+  width: 500px;
+  height: 450px;
+  margin: 50px 10px;
+  background-image: linear-gradient(to top, 
+                  rgba(114, 109, 109, 0) 0%, rgba(123, 142, 153, 0.71) 100%), url("./img/woman-drinking.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+}
+
+ .circle{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgb(241, 238, 238);
+  right: 50px;
+  box-shadow: 0 0 0px 15px #e7eaec23, 0 0 0px 25px #d7d7d855;
+  right: 200px;
+  top: 200px;
+}
+
+.circle:hover {
+  transition: 1s;
+  box-shadow: 0 0 0px 10px #e7eaec44, 0 0 0px 20px #d7d7d855;
+  
+}
+
+.feedback .container
+{
+  display: flex;
+  justify-content: flex-start;
+  background-image: url(./img/map.png);
+  background-repeat: no-repeat;
+  background-size: 900px;
+  background-position: top right;
+}
+
+.feedback .feedback-left
+{
+  width: 50%;
+}
+
+.feedback .feedback-right
+{
+  width: 50%;
+}
+
+.feedback .feedback-right .fdb-title
+{
+  font-family: 'Nunito', sans-serif;
+  text-transform: capitalize;
+  font-size: 45px;
+  padding: 50px 0;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  transform: translateX(-90px);
+}
+
+.feedback .feedback-right .fdb-title::before
+{
+  content: "";
+  width: 100px;
+  height: 3px;
+  background-color: #8279EE;
+  transform: translate(100px, 50px);
+  border-radius: 20px;
+}
+
+.feedback .feedback-right .profile
+{
+  display: flex;
+  align-items: center;
+}
+
+.feedback .feedback-right .profile .profil-img
+{
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+}
+
+.feedback .feedback-right .profile .prfname
+{
+  font-family: 'Nunito', sans-serif;
+  text-transform: capitalize;
+  text-align: center;
+  margin: 10px 0;
+  font-weight: bolder;
+  font-size: 21px;
+}
+
+.feedback .feedback-right .profile .prf-txt
+{
+  font-family: 'Nunito', sans-serif;
+  color: rgba(0,0,0,0.4);
+  margin: 10px 0;
+  font-weight: bolder;
+}
+
+.feedback .feedback-right .fdb-subtext
+{
+  width: 430px;
+  line-height: 27px;
+  padding: 30px 0;
+  font-family: 'Nunito', sans-serif;
+  color: rgba(0,0,0,0.4);
+  margin: 10px 0;
+  font-weight: bolder;
+}
+
+.feedback .feedback-right .fdb-btns
+{
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.feedback .feedback-right .fdb-btns .fdb-left
+{
+  padding: 10px 20px;
+  outline: none;
+  background: none;
+  border: none;
+}
+
+.feedback .feedback-right .fdb-btns .fdb-left:hover
+{
+  background-color: rgb(236,240,251);
+  border-radius: 5px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.blog
+{
+  background-color: rgb(236,240,251);
+  padding: 30px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog .container
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.blog .container .blog-header
+{
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.blog .blog-header .blog-title
+{
+  width: 430px;
+  font-size: 35px;
+  text-transform: capitalize;
+  padding: 30px 0;
+  font-family: 'Nunito', sans-serif;
+  margin: 10px 0;
+  font-weight: bolder;
+}
+
+.blog-title::after
+{
+  content: "";
+  display: block;
+  width: 100px;
+  height: 5px;
+  background-color: rgb(37,117,230);
+  border-radius: 10px;
+}
+
+
+.blog .fdb-btns
+{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.blog .fdb-btns .fdb-left
+{
+  width: 100px;
+  height: 40px;
+  outline: none;
+  background: none;
+  border: none;
+  transform: translateY(25px);
+}
+
+.blog .fdb-btns .fdb-left:hover
+{
+  background-color: rgb(201,215,255);
+  border-radius: 7px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.blog .blog-list
+{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.blog .blog-item
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  min-height: 500px;
+  background-color: #fff;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 0px 30px 20px rgba(37,117,230,0.11);
+}
+
+.blog .blog-item:hover
+{
+  transform: scale(1.03);
+  transition: 0.4s;
+}
+
+.blog-img
+{
+  width: 100%;
+}
+
+.blog-txts
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 70%;
+  padding: 30px 0;
+}
+
+.blog .blog-comment-txt
+{
+  font-family: 'Nunito', sans-serif;
+  color: rgba(0,0,0,0.4);
+  font-weight: bolder;
+}
+
+.blog .blog-comment-txt span
+{
+  padding-left: 10px;
+}
+
+.blog .blog-item-title
+{
+  text-transform: capitalize;
+  font-family: 'Nunito', sans-serif;
+  margin-top: 20px;
+  font-weight: 800;
+}
+
+.blog .blog-link
+{
+  display: block;
+  width: 200px;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+  color: rgb(37,117,230);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: 'Nunito', sans-serif;
+  margin-top: 50px;
+  padding: 10px 0;
+}
+
+.blog .blog-link:hover
+{
+  color: #fff;
+  background-color: rgb(37,117,230);
+  transition: 0.4s;
+}
+
+.subscribe .container{
+  width: 1140px;
+  margin: 100px auto;
+  text-align: center;
+  background-image: url("./img/decoration.svg");
+}
+
+.subscribe-title{
+  padding-top: 100px; 
+  font-weight: 800;
+  font-size: 30px;
+  color: rgb(46, 44, 44);
+}
+
+.subscribe-text{
+  padding: 30px 250px;
+  color: darkgray;
+  line-height: 2;
+}
+
+.subscribe-form{
+  width: 40%;
+  display: flex;
+  margin-left: 340px;
+  box-shadow: 0 15px 10px 3px rgb(233, 229, 229);
+}
+.subscribe-form .subscribe-input{
+  width: 70%;
+  height: 50px;
+  border-radius: 5px 0 0 5px;
+  padding-left: 20px;
+  border: none;
+  outline: none;
+}
+
+.subscribe-button{
+  width: 30%;
+  height: 50px;
+  padding-right: 20px;
+  padding-left: 10px;
+  border-radius : 0 5px 5px 0;
+  border:none;
+  background-color: rgb(97, 120, 224);
+  outline: none;
+  color:white;
+}
+
+footer{
+  background-color: #ECF0FB;
+}
+
+footer .container{
+  width: 1140px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.list-learn .learn-item {
+  line-height: 3;
+  font-weight: bold;
+  color: rgb(70, 68, 68);
+}
+.list-home .item-home {
+  padding-top: 10px;
+  font-weight: bold;
+  color: rgb(70, 68, 68);
+}
+
+.list-courses .item-courses {
+  padding-top: 10px;
+  font-weight: bold;
+  color: rgb(70, 68, 68);
+}
+
+.list-community .item-community {
+  padding-top: 10px;
+  font-weight: bold;
+  color: rgb(70, 68, 68);
+}
+
+.list-connected .item-connected{
+  padding-top: 8px;
+  display: flex;
+  color: rgb(70, 68, 68);
+}
+.item-connected p{
+  
+}
+
+.item-connected p{
+  padding-left: 15px;
+}
+
+.item-link{
+  color: darkgray;
+  margin-top: 5px;
+}
+
+.item-link:hover{
+  color: rgb(228, 94, 94);
+}
