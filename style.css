@@ -127,6 +127,11 @@ main .container{
     color:white;
 }
 
+.button:hover{
+  transition: 1s;
+  background-color: rgb(70, 70, 97);
+}
+
 .courses .container{
   width: 1140px;
   margin: 0 auto;
@@ -671,6 +676,11 @@ margin-left: 35px;
   color:white;
 }
 
+.subscribe-button:hover{
+  transition: 1s;
+  background-color: rgb(70, 70, 97);
+}
+
 footer{
   background-color: #ECF0FB;
 }
@@ -710,10 +720,6 @@ footer .container{
   display: flex;
   color: rgb(70, 68, 68);
 }
-.item-connected p{
-  
-}
-
 .item-connected p{
   padding-left: 15px;
 }
